@@ -31,9 +31,9 @@ jobs:
         run: ./gradlew assembleRelease
 
       # Runs a set of commands using the runners shell
-      - name: publish
-        uses: actions/upload-artifact@v2
-        with:
-          name: distribute
-          path: |
-            app/build/output/apk
+      #- name: publish
+      #  uses: actions/upload-artifact@v2
+      #  with:
+      #    name: distribute
+      #    path: |
+      #      app/build/output/apk
