@@ -34,6 +34,5 @@ jobs:
       - name: publish
         uses: actions/upload-artifact@v2
         with:
-          name: distribute
-          path: |
-            app/build/outputs/apk/release/app-release-unsigned.apk
+          name: example.apk
+          path: app/build/outputs/apk/release/app-release-unsigned.apk
